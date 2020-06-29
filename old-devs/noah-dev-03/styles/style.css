@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: azure;
+}
+
+#header {
+    padding: 0px; margin: 0px;
+    height: 75px;
+    width: 100%;
+    background-color: aliceblue;
+    color: cornflowerblue;
+    font-family: fantasy;
+    font-size: 40px;
+    text-align: center; 
+    position: fixed;
+    top: 0px; left: 0px; 
+    z-index: 1; 
+}
+
+#logo{
+    z-index: 1000;
+    color: purple;
+    font-weight: bold;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 90px;
+    position: fixed;
+    top: 7px;
+    left: 7px;
+    
+}
+
+#logo>p {
+    padding: 8px;
+    text-align: center;
+    font-size: 24px;
+}
+#content{
+    background-color: palevioletred;
+    padding-top: 75px;
+    height: 1000px;
+}
+
+#row03 {
+    width: 100%;
+}
+
+.first-row {
+    width: 33%;
+    height: 150px;
+    background-color: darkmagenta;
+    float: left;
+    margin: 10px;  
+}
+
+.second-row {
+  width: 419px;
+  height: 150px;
+  background-color: blue;
+  float: left;
+  margin: 10px;
+}
+.third-row {
+  float:left;
+  width: 419px;
+  height: 150px;
+  background-color: green;
+  margin: 10px;
+}
+#help-box {
+  height: 50px;
+  width: 100px;
+  background-color: #003;
+  color: aquamarine;
+  position: fixed;
+  bottom: 15%;
+  right: 0px;
+}
+
+#footer {
+  height: 0px;
+  border-top: dashed 1px;
+}

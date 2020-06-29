@@ -1,0 +1,55 @@
+#carousel_bg_1 {
+    background-color: rgba(212, 86, 27, 0.822);
+    background-image: url('https://www.transparenttextures.com/patterns/basketball.png');
+}
+
+#carousel_bg_2 {
+    background-color: rgba(48, 125, 226, 0.87);
+    background-image: url('http://www.transparenttextures.com/patterns/asfalt-light.png');
+}
+
+#carousel_bg_3 {
+    background-color: rgba(68, 197, 158, 0.918);
+    background-image: url('http://www.transparenttextures.com/patterns/bright-squares.png');
+}
+
+#carousel_bg_4 {
+    background-color: rgba(90, 23, 216, 0.822);
+    background-image: url('http://www.transparenttextures.com/patterns/black-orchid.png');
+}
+
+#carousel_bg_5 {
+    background-color: rgba(182, 17, 127, 0.678);
+    background-image: url('http://www.transparenttextures.com/patterns/diagmonds-light.png');
+}
+
+#carousel_bg_6 {
+    background-color: rgba(40, 192, 119, 0.973);
+    background-image: url('http://www.transparenttextures.com/patterns/fresh-snow.png');
+}
+
+@font-face {
+    font-family: 'Fjalla One', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Just+Me+Again+Down+Here&display=swap');
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#warning_box_bgc {
+    background-color: rgb(255, 255, 255);
+}
+
+.carousel-caption {
+    filter: brightness(300%);
+    filter: saturate(10%);
+    filter: grayscale(20%);
+    text-shadow: 2px 2px 4px #000000;
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
